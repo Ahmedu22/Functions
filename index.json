@@ -1,0 +1,14 @@
+[
+    {
+    "name": "Ahmed Abdi",
+    "age": "25",
+    "email": "ahmedabdirahman4167@gmail.com",
+    "isProgrammer" : "true",
+    "hoppies": ["resding", "training"],
+    "addrees" : {
+        "city" : "Nairobi",
+        "zipcode" : "70100"
+    }
+}
+
+]

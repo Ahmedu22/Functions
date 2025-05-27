@@ -28,3 +28,25 @@ const greeting = function (user){
 };
 greeting('how are you')
 
+
+
+// JSON stands for Javascript Object Notation
+
+const person = {
+    name: "Ahmed Abdi",
+    age: "25",
+    email: "ahmedabdirahman4167@gmail.com",
+    isProgrammer : "true",
+    hoppies: ["resding", "training"],
+    addrees : {
+        city : "Nairobi",
+        zipcode : "70100",
+},
+}
+
+
+const jsonString = JSON.stringify(person);
+console.log(jsonString);
+
+const parse = JSON.parse(jsonString);
+console.log(parse);
